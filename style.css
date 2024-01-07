@@ -1,0 +1,50 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid black;
+    font-size: 5vh;
+    height: 20vh;
+    width: 13vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btop {
+    border-top: 0;
+}
+
+.bbottom {
+    border-bottom: 0;
+}
+
+.bleft {
+    border-left: 0;
+}
+
+.bright {
+    border-right: 0;
+}
+
+button {
+    border-radius: 32px;
+    margin-top: 4vh;
+    height: 10vh;
+    width: 16vw;
+    color: rgb(239, 232, 232);
+    cursor: pointer;
+    font-size: 4vh;
+    background-color: #b60c0c;
+}
